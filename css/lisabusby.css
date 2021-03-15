@@ -1,0 +1,362 @@
+body {
+  background-color: #f7f7f6;
+  color: black;
+  margin: 0;
+  background-image: url(../images/paperBG1.gif);
+  padding: 0;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+#indexImage {
+  margin: 0;
+  position: absolute;
+  max-width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#content {
+  position: relative;
+  width: 780px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+#banner {
+  position: relative;
+  width: 680px;
+  height: 50px;
+  padding-left: 100px;
+}
+
+#menu {
+  position: relative;
+  width: 100px;
+  height: 900px;
+  float: left;
+  text-align: left;
+}
+
+#inner {
+  position: relative;
+  width: 680px;
+  height: 900px;
+  float: left;
+  text-align: justify;
+  background: none;
+}
+
+#innerbs {
+  position: relative;
+  width: 100%;
+  float: left;
+  text-align: justify;
+  background: none;
+  /*padding-bottom: 50px;*/
+}
+
+#block {
+  position: relative;
+  width: 330px;
+  height: 320px;
+  float: left;
+  text-align: justify;
+  background: none;
+  padding-right: 10px;
+}
+
+#block2 {
+  position: relative;
+  width: 330px;
+  height: 450px;
+  float: left;
+  text-align: justify;
+  background: none;
+  padding-right: 10px;
+}
+
+#footer {
+  position: relative;
+  width: 680px;
+  height: 50px;
+  float: left;
+  text-align: left;
+  padding-left: 100px;
+}
+
+#backButton {
+  padding-bottom: 50px;
+}
+
+.specialDate {
+  color: #24c3bc;
+}
+
+.navtop {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  color: #24c3bc;
+}
+
+.portfolioGrid {
+  padding-top: 50px;
+  margin: auto;
+  width: 100%;
+}
+
+.portfolioItem {
+  margin-bottom: 30px;
+}
+
+.box img {
+  position: relative;
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+}
+
+.boxNoZoom {
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.box:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.portfolioItem:hover .overlay {
+  opacity: 0.7;
+}
+
+.img-middle {
+  margin: auto;
+}
+
+.carousel-inner .item img {
+  height: 600px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noSpace {
+  margin-bottom: 0px;
+}
+
+img {
+  border: none;
+}
+
+p {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: #111;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2.navMenu {
+  display: inline-block;
+  color: #111;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h3 {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5 {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h6 {
+  color: #888;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a name {
+  color: #111;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #24c3bc;
+  text-decoration: underline;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  color: #111111;
+  text-decoration: underline;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.one:link,
+a.one:active,
+a.one:visited {
+  color: #24c3bc;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a.one:hover {
+  color: #111111;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.inner:link,
+a.inner:active,
+a.inner:visited {
+  color: #eeeeee;
+  text-decoration: none;
+  background-color: #24c3bc;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.inner:hover {
+  color: #111111;
+  text-decoration: none;
+  background-color: #24c3bc;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.horizontal_dotted_line {
+  line-color: #24c3bc;
+  border-bottom: 1.5px dotted #ccc;
+  width: 100%;
+}
+
+.horizontal_dotted_line_half {
+  line-color: #24c3bc;
+  border-bottom: 1.5px dotted #ccc;
+  width: 50%;
+}
+
+audio {
+  width: 360px;
+}
